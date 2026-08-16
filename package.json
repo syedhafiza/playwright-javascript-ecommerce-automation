@@ -1,0 +1,23 @@
+{
+  "name": "playwright-ecommerce-automation",
+  "version": "1.0.0",
+  "description": "Playwright JavaScript end-to-end test automation framework using Page Object Model (POM).",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report",
+    "test:login": "playwright test tests/login.spec.js",
+    "test:products": "playwright test tests/products.spec.js",
+    "test:cart": "playwright test tests/cart.spec.js",
+    "test:checkout": "playwright test tests/checkout.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1"
+  }
+}

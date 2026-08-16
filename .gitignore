@@ -1,0 +1,28 @@
+
+# Dependencies
+node_modules/
+
+# Playwright reports and artifacts
+playwright-report/
+test-results/
+blob-report/
+
+# Media and tracing artifacts
+screenshots/
+videos/
+traces/
+
+# Environment files
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# Windows temporary files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
